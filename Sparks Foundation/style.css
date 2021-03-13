@@ -1,0 +1,119 @@
+body {
+    background-image: url(https://image.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg);
+    /* background-position: center center; */
+  
+ }
+ 
+
+ .navigation{
+     display: flex;
+     flex-direction: column;
+    margin: 10px 10px;
+     margin-top: -40px;
+     padding: 4px;
+     border-radius: 25px;
+ }
+ 
+ ul{
+     display: inline;
+     text-align: center center;
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     text-decoration: none;
+     float:right;
+     margin-left: 12px;
+    
+     margin: 2px 2px;
+ 
+     
+ }
+ .image1{
+     display: block;
+     margin-left: auto;
+     margin-right: 250px;
+     width: 50%;
+     /* border-radius: 100%; */
+ 
+ 
+ }
+ .photosection{
+   margin-right: 150px;
+    padding: 40px; 
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .heading{
+     text-align: center;
+     color: #fff;
+     font-size: 50px;
+     font-family: 'Oswald', sans-serif;
+     
+ }
+ .button1{
+     text-align: center;
+     text-decoration: none;
+     font-size: 30px;
+     font-family: 'Anton', sans-serif;
+ }
+ .footer{
+     
+     margin: 50px;
+ 
+ 
+ }
+ 
+ .button1{
+     font-size: 25px;
+     border-color: tomato;
+     background-color: tomato;
+     border-radius: 30px;
+     margin-bottom: 30px;
+ }
+ .button1:hover {
+     transform: scale(1.4); 
+   }
+ .button1:hover{
+     background-color: red;
+     color: wheat;
+ }
+ .btn-danger {
+     color: #fff;
+     background-color: #dc3545;
+     border-color: #dc3545;
+     margin-top: 85px;
+     margin-left: 20px;
+ }
+ .bankintro{
+     color: rgb(248, 223, 223);
+     text-align: center;
+     font-size: 25px;
+ }
+ #footer {
+    color: white;
+    padding: 2.5rem 0;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    #footer h5 {
+      font-size: 15px;
+      margin: 1.875rem 0; }
+    #footer hr {
+      width: 50%;
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      border-top: none; }
+    #footer h6 {
+      font-size: 13px;
+      margin: 0.3rem 0; }
+    #footer #social-icons {
+      padding: 0.75rem 0; }
+      #footer #social-icons img {
+        width: 2.25rem;
+        padding: 0 0.25rem;
+        transition: all .2s; }
+        #footer #social-icons img:hover {
+          transform: scale(1.2); }
+  
